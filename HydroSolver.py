@@ -25,6 +25,7 @@ cs=1 #Sound Speed
 f1=np.zeros([len(x)])
 f2=f1
 f1=1+0.05*np.exp(-100*(x-1/2)**2) #Initial Gaussian perturbation in density
+#We see above that the gaussian amplitude is set to 0.05. If we change it to 0.5, this creates a shock. 
 
 #Initialize the J1 and J2 terms defined in the Hydro code example from Prof Eve J Lee
 #J1plus is J_{1,j+1/2}, J1minus is J_{1,j-1/2}, same for J2.
